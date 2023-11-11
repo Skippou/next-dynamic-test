@@ -5,7 +5,7 @@ interface PageProps {
 }
 export default function Page({ params }: PageProps) {
     const useThisParam = useParams<{ projectId: string }>();
-  return <p className="text-white bg-black">TESTING{useThisParam.projectId } {params?.projectId} Hi</p>;
+  return <p className="text-white bg-black">TESTING{useThisParam?.projectId } {params?.projectId} Hi</p>;
 }
 export const dynamicParams = true
 export const revalidate = false
