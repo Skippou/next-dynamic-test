@@ -8,9 +8,11 @@ const MyComponent = () => {
     };
 
     return (
-        <div>
-            <p>You clicked {count} timezzzzzzz</p>
-            <button onClick={handleClick}>Click me</button>
+        <div className='bg-gray-600'>
+            <p>You clicked {count} timez</p>
+            <button 
+                className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'
+            onClick={handleClick}>Click me</button>
         </div>
     );
 };
