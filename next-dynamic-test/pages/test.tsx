@@ -9,7 +9,7 @@ const MyComponent = () => {
 
     return (
         <div>
-            <p>You clicked {count} timez</p>
+            <p>You clicked {count} timezzzzzzz</p>
             <button onClick={handleClick}>Click me</button>
         </div>
     );
